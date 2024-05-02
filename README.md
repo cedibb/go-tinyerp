@@ -14,3 +14,16 @@ To install `go-tinyerp`, you need to install Go and set your Go workspace first.
 ## Usage
 
 Here's a basic example of how to use `go-tinyerp`:
+
+```go
+package main
+
+import (
+    "fmt"
+    "github.com/yourusername/go-tinyerp"
+)
+
+func main() {
+    client := gotinyerp.NewClient("your-api-key")
+    // use the client
+}
