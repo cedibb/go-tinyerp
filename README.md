@@ -20,7 +20,7 @@ package main
 
 import (
     "fmt"
-    "github.com/yourusername/go-tinyerp"
+    "github.com/cedibb/go-tinyerp"
 )
 
 func main() {
